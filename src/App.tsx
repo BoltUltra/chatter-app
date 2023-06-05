@@ -30,7 +30,7 @@ function App() {
   if (loading) {
     return (
       <div className="bg-white flex items-center justify-center h-screen">
-        <img src="../public/loader.gif" className="w-44" alt="Loader" />
+        <img src="/loader.gif" className="w-44" alt="Loader" />
       </div>
     );
   }
