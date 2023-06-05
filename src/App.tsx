@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home.tsx";
 import Login from "./components/Login.tsx";
-import { loader } from "./assets";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +30,7 @@ function App() {
   if (loading) {
     return (
       <div className="bg-white flex items-center justify-center h-screen">
-        <img src={loader} className="w-44" alt="Loader" />
+        <img src="../public/loader.gif" className="w-44" alt="Loader" />
       </div>
     );
   }

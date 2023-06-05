@@ -1,1 +1,1 @@
-export { default as loader } from "./loader.gif";
+export { default as loader } from "../../public/loader.gif";
